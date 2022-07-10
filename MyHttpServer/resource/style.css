@@ -1,0 +1,33 @@
+body{
+	background-color:d9f5fa;
+}
+header{background-color:ffffff;
+	color:b1e8f2;
+	font-family:Verdana;
+	text-align: center;
+}
+h1{text-align:center;
+   font-size:3.1em;
+   font-weight:bold;
+}
+
+h2{color:7fb8c7;
+}
+
+p{color:3b3838;
+}
+
+ul{color:7fb8c7;}
+
+li{color:3b3838;}
+
+footer{text-align:center;
+	color:362e2e;
+}
+
+a{color:edc2de;
+font-weight:bold;}
+
+a:hover{
+color:b1e8f2;
+}
