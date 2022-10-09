@@ -11,7 +11,7 @@ Rate)
  #Project Exhibition
  
  ## Classes digram
- ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/phase2_diagram.png)
+ ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.41.08%20PM.png)
  
  ## Welcome page
  ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.30.40%20PM.png) 
