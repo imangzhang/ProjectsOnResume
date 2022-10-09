@@ -8,20 +8,10 @@ Rate)
  - Structures MVVM Architecture to decouple user interface with backend database
  -Uilizes: Android, Kotlin, MVVM
  
- #Project Exhibition
- 
- ## Classes digram
- ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.41.08%20PM.png=400x250)
- 
- ## Welcome page
- ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.30.40%20PM.png) 
- 
-## Sign up page
-![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.31.25%20PM.png)
 
-## User portal page
-![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.31.40%20PM.png)
-
-## Update user info page
-![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.32.26%20PM.png)
-
+ # Classes digram
+ ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.41.08%20PM.png)
+ 
+ # Project Exhibition
+<img src="https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.30.40%20PM.png"  width="240" height="500"> <img src="https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.31.25%20PM.png"  width="240" height="500"><img src="https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.31.40%20PM.png"  width="240" height="500"> <img src="https://github.com/imangzhang/ProjectsOnResume/blob/main/LifeStyle/src/images/Screen%20Shot%202022-10-09%20at%205.32.26%20PM.png"  width="240" height="500">
+ 
