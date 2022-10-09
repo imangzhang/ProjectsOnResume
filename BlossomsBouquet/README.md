@@ -7,7 +7,7 @@
 # Progect Exhibition
 ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/BlossomsBouquet/images/Screen%20Shot%202022-09-18%20at%208.23.52%20AM.png?raw=true)
   
-  ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/BlossomsBouquet/images/Screen%20Shot%202022-09-18%20at%208.24.24%20AM.png?raw=true)
+  ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/BlossomsBouquet/images/Screen%20Shot%202022-09-18%20at%208.24.16%20AM.png?raw=true)
   
   ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/BlossomsBouquet/images/Screen%20Shot%202022-09-18%20at%208.24.24%20AM.png?raw=true)
   
