@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateUserInfo">
+
+    <ImageView
+        android:id="@+id/transparentLayer_updateInfo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="9dp"
+        android:background="#99FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/profilePictureUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_title" />
+
+    <TextView
+        android:id="@+id/update_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/dancingfont"
+        android:text="Update Info"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/locationUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/changeLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="11dp"
+        android:text="Change Location"
+        app:layout_constraintBottom_toTopOf="@+id/nameUpdate"
+        app:layout_constraintEnd_toEndOf="@+id/locationUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/locationUpdate" />
+
+    <EditText
+        android:id="@+id/nameUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColor="#213b28"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ageUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changeLocationButton" />
+
+    <EditText
+        android:id="@+id/ageUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColor="#213b28"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/genderUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameUpdate" />
+
+    <Spinner
+        android:id="@+id/genderUpdate"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="14dp"
+        android:tag="genderSpinner"
+        app:layout_constraintBottom_toTopOf="@+id/heightUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageUpdate" />
+
+    <EditText
+        android:id="@+id/heightUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:hint="Height(inches)"
+        android:inputType="number"
+        android:textColor="#213b28"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/activityLevelUpdate"
+        app:layout_constraintEnd_toStartOf="@+id/weightUpdate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genderUpdate" />
+
+    <EditText
+        android:id="@+id/weightUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:hint="Weight(Pounds)"
+        android:inputType="number"
+        android:textColor="#213b28"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/activityLevelUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/heightUpdate" />
+
+    <Button
+        android:id="@+id/submitUpdate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="60dp"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilePictureUpdate" />
+
+    <Button
+        android:id="@+id/takePictureUpdate"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="22dp"
+        android:text="Photo"
+        app:layout_constraintBottom_toTopOf="@+id/submitUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilePictureUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/activityLevelUpdate" />
+
+    <Spinner
+        android:id="@+id/activityLevelUpdate"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="4dp"
+        android:tag="activityLevelSpinner"
+        app:layout_constraintBottom_toTopOf="@+id/profilePictureUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heightUpdate" />
+
+    <ImageView
+        android:id="@+id/profilePictureUpdate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="23dp"
+        android:layout_toRightOf="@id/takePictureUpdate"
+        app:layout_constraintBottom_toTopOf="@+id/submitUpdate"
+        app:layout_constraintEnd_toStartOf="@+id/takePictureUpdate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityLevelUpdate"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/locationUpdate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:text="Location: --"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/changeLocationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_title" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
