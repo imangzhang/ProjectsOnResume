@@ -6,7 +6,7 @@ Rate)
 - Uses Google Map and Open Weather APIs supporting users to locate the nearest hiking points and
  check the weather
  - Structures MVVM Architecture to decouple user interface with backend database
- -Uilizes: Android, Kotlin, MVVM
+ - Uilizes: Android, Kotlin, MVVM
  
 
  # Classes digram
