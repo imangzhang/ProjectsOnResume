@@ -1,0 +1,3 @@
+- This project is built upon React.js
+- It lets users to different number of orders to their cart.
+- It also lets users edit their shopping cart to add or remove shopping items.
