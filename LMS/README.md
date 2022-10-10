@@ -6,7 +6,7 @@
 
 # Project Exhibition
 
-## tables in the database
+## tables in the database(ER Model)
 ![Text](https://github.com/imangzhang/ProjectsOnResume/blob/main/LMS/Images/TablesDiagram.png?raw=true)
 
 ## samples
